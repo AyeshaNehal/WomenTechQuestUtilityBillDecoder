@@ -1,0 +1,24 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "PKR 3,358 of your bill goes towards taxes, which makes up about 16.20% of your current bill totaling PKR 20,726. This tax amount consists of the GST charge listed on your bill.",
+      "supporting_numbers": [
+        3358.23,
+        20726.0,
+        16.20298176203802
+      ],
+      "reason": "The tax amount is explicitly given as PKR 3358.23 and the current bill is PKR 20726.0, with a tax share of approximately 16.20%."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "Based on your billing history, there are 2 months where units consumed went above 200 units, specifically August 2025 with 225 units and January 2026 with 359 units. If you also include the current month of July 2026 with 1017 units consumed, the count is 3 months.",
+      "supporting_numbers": [
+        225.0,
+        359.0,
+        1017.0
+      ],
+      "reason": "Checking the billing history rows and current month units: AUG 25 has 225 units and JAN 26 has 359 units above 200, while the current month has 1017 units."
+    }
+  ]
+}

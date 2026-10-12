@@ -1,0 +1,279 @@
+{
+  "level1": {
+    "provider": "KE",
+    "tariff": "A1-R",
+    "sanctioned_load_kw": 10.0,
+    "bill_month": "2026-06",
+    "reading_date": "2026-06-25",
+    "issue_date": "2026-06-29",
+    "due_date": "2026-07-13",
+    "previous_reading": 1163.29,
+    "current_reading": 1923.73,
+    "units_consumed": 901.0,
+    "charges": [
+      {
+        "type": "fixed",
+        "amount": 3375.0
+      },
+      {
+        "type": "energy",
+        "amount": 26257.99
+      },
+      {
+        "type": "energy",
+        "amount": 6582.43
+      },
+      {
+        "type": "quarterly_adjustment",
+        "amount": -1442.74
+      },
+      {
+        "type": "quarterly_adjustment",
+        "amount": 61.1
+      },
+      {
+        "type": "fpa",
+        "amount": 354.19
+      },
+      {
+        "type": "surcharge",
+        "amount": 2910.04
+      }
+    ],
+    "total_charges": 38098.01,
+    "taxes": [
+      {
+        "type": "electricity_duty",
+        "amount": 520.85
+      },
+      {
+        "type": "gst",
+        "amount": 6951.39
+      }
+    ],
+    "total_taxes": 7472.24,
+    "current_bill": 45570.25,
+    "arrears": -91877.02,
+    "payable_within_due_date": 0.0,
+    "payable_after_due_date": 0.0
+  },
+  "extras": {
+    "usage_history": [
+      {
+        "month": "Jun",
+        "units": 943.0
+      },
+      {
+        "month": "Jul",
+        "units": 637.0
+      },
+      {
+        "month": "Aug",
+        "units": 665.0
+      },
+      {
+        "month": "Sep",
+        "units": 555.0
+      },
+      {
+        "month": "Oct",
+        "units": 522.0
+      },
+      {
+        "month": "Nov",
+        "units": 143.0
+      },
+      {
+        "month": "Dec",
+        "units": 121.0
+      },
+      {
+        "month": "Jan",
+        "units": 114.0
+      },
+      {
+        "month": "Feb",
+        "units": 131.0
+      },
+      {
+        "month": "Mar",
+        "units": 187.0
+      },
+      {
+        "month": "Apr",
+        "units": 298.0
+      },
+      {
+        "month": "May",
+        "units": 599.0
+      },
+      {
+        "month": "Jun",
+        "units": 901.0
+      }
+    ],
+    "billing_history_rows": [
+      {
+        "month": "05/26",
+        "units": null,
+        "amount_billed": 32842.35,
+        "amount_paid": 3531.0
+      },
+      {
+        "month": "04/26",
+        "units": null,
+        "amount_billed": 18957.94,
+        "amount_paid": 27914.0
+      },
+      {
+        "month": "03/26",
+        "units": null,
+        "amount_billed": 13564.05,
+        "amount_paid": 29351.0
+      }
+    ],
+    "bill_calculation_lines": [
+      {
+        "name": "Fixed Charges",
+        "section": "Bill Calculation",
+        "units": 5.0,
+        "rate": 675.0,
+        "amount": 3375.0
+      },
+      {
+        "name": "Variable Off Peak",
+        "section": "Bill Calculation",
+        "units": 760.44,
+        "rate": 34.53,
+        "amount": 26257.99
+      },
+      {
+        "name": "Variable Peak",
+        "section": "Bill Calculation",
+        "units": 140.5,
+        "rate": 46.85,
+        "amount": 6582.43
+      },
+      {
+        "name": "Uniform Quarterly Adjustment",
+        "section": "Bill Calculation",
+        "units": 726.57,
+        "rate": -1.9857,
+        "amount": -1442.74
+      },
+      {
+        "name": "Uniform Quarterly Adjustment",
+        "section": "Bill Calculation",
+        "units": 174.37,
+        "rate": 0.3504,
+        "amount": 61.1
+      },
+      {
+        "name": "FCA :Apr-26",
+        "section": "Bill Calculation",
+        "units": 297.46,
+        "rate": 1.1907,
+        "amount": 354.19
+      },
+      {
+        "name": "Additional Surcharge (PHL)",
+        "section": "Bill Calculation",
+        "units": 900.94,
+        "rate": 3.23,
+        "amount": 2910.04
+      },
+      {
+        "name": "Electricity Charges",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": 38098.01
+      },
+      {
+        "name": "Electricity Duty",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": 520.85
+      },
+      {
+        "name": "Sales Tax u/s 3(1)*",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": 6951.39
+      },
+      {
+        "name": "Taxes and Duties",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": 7472.24
+      },
+      {
+        "name": "Electricity Charges for current month",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": 45570.25
+      },
+      {
+        "name": "Opening Balance",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": -91877.02
+      },
+      {
+        "name": "Previous Dues",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": -91877.02
+      },
+      {
+        "name": "Remaining Dues",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": -91877.02
+      },
+      {
+        "name": "Current Bill Amount",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": 45570.25
+      },
+      {
+        "name": "Net Metering Benefit",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": -114640.13
+      },
+      {
+        "name": "Outstanding Balance",
+        "section": "Bill Calculation",
+        "units": null,
+        "rate": null,
+        "amount": -160946.9
+      }
+    ],
+    "late_payment_lines": [],
+    "printed_percentage_splits": [],
+    "message_board_text": "FCA of XWDISCOs is also being charged to KE consumers as part of Uniform FCA starting from the month of Jun 25. As per SRO 547/2026 read with SRO 251/2026, prosumers registered under the Prosumer Regulations 2026 (PR) are billed according to the rate and mechanism defined in PR. Net metering consumers with existing valid agreements continue to be billed under the repealed 2015 regulations until the expiry of their agreements.",
+    "mdi_readings": null,
+    "tariff_slab_details": [],
+    "printed_totals": [
+      {
+        "description": "Electricity Charges",
+        "amount": 38098.01
+      },
+      {
+        "description": "Taxes and Duties",
+        "amount": 7472.24
+      }
+    ]
+  }
+}

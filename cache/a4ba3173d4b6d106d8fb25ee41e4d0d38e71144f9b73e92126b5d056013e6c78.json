@@ -1,0 +1,33 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "PKR 498.0 of your bill is taxes, which makes up 15.24% of your net electricity charges. This consists of the GST tax line amounting to PKR 498.0.",
+      "supporting_numbers": [
+        498.0,
+        15.24,
+        3267.0
+      ],
+      "reason": "The taxes amount is explicitly stated in the bill charges breakdown and printed percentage splits as PKR 498.0 (15.24%)."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "There are 0 months in the billing history that went above 200 units. The historical monthly units range from 20.0 to 197.0 units.",
+      "supporting_numbers": [
+        20.0,
+        163.0,
+        148.0,
+        102.0,
+        105.0,
+        116.0,
+        104.0,
+        133.0,
+        176.0,
+        197.0,
+        110.0,
+        47.0
+      ],
+      "reason": "Checking the billing history rows reveals that no month recorded units exceeding 200, with the highest being 197.0 units in June 26."
+    }
+  ]
+}

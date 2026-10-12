@@ -1,0 +1,23 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "PKR 498 of your bill is taxes, which makes up 15.24% of your current bill. This amount comes entirely from the General Sales Tax (GST) listed in the taxes section.",
+      "supporting_numbers": [
+        498.0,
+        15.24,
+        3267.0
+      ],
+      "reason": "The bill clearly details a GST tax amount of PKR 498 out of the PKR 3,267 current bill, representing 15.24%."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "Zero months went above 200 units in your billing history. The maximum units recorded in any single month was 197 units in June 2026, so no month exceeded the 200-unit threshold.",
+      "supporting_numbers": [
+        200.0,
+        197.0
+      ],
+      "reason": "Checking the billing history rows reveals that all past months, including the highest at 197 units, stayed below 200 units."
+    }
+  ]
+}

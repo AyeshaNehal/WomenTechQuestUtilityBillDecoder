@@ -1,0 +1,121 @@
+{
+  "plans": [
+    {
+      "question_id": "Q1",
+      "expressions": []
+    },
+    {
+      "question_id": "Q2",
+      "expressions": [
+        {
+          "name": "max_units",
+          "expr": "max(x['units'] for x in extras['usage_history'])"
+        }
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "expressions": []
+    },
+    {
+      "question_id": "Q4",
+      "expressions": [
+        {
+          "name": "lps_5_pct",
+          "expr": "next(item['amount'] for item in extras['late_payment_lines'] if '5%' in item['description'])"
+        },
+        {
+          "name": "lps_10_pct",
+          "expr": "next(item['amount'] for item in extras['late_payment_lines'] if '10%' in item['description'])"
+        }
+      ]
+    },
+    {
+      "question_id": "Q5",
+      "expressions": [
+        {
+          "name": "current_units",
+          "expr": "level1['units_consumed']"
+        },
+        {
+          "name": "same_month_last_year_units",
+          "expr": "extras['usage_history'][0]['units']"
+        },
+        {
+          "name": "diff",
+          "expr": "level1['units_consumed'] - extras['usage_history'][0]['units']"
+        }
+      ]
+    },
+    {
+      "question_id": "Q6",
+      "expressions": [
+        {
+          "name": "avg_units",
+          "expr": "facts['usage_avg']"
+        },
+        {
+          "name": "current_units",
+          "expr": "level1['units_consumed']"
+        }
+      ]
+    },
+    {
+      "question_id": "Q7",
+      "expressions": [
+        {
+          "name": "summer_units",
+          "expr": "sum(x['units'] for x in extras['usage_history'] if x['month'] in ['Jun', 'Jul', 'Aug'])"
+        },
+        {
+          "name": "winter_units",
+          "expr": "sum(x['units'] for x in extras['usage_history'] if x['month'] in ['Dec', 'Jan', 'Feb'])"
+        },
+        {
+          "name": "diff",
+          "expr": "sum(x['units'] for x in extras['usage_history'] if x['month'] in ['Jun', 'Jul', 'Aug']) - sum(x['units'] for x in extras['usage_history'] if x['month'] in ['Dec', 'Jan', 'Feb'])"
+        }
+      ]
+    },
+    {
+      "question_id": "Q8",
+      "expressions": []
+    },
+    {
+      "question_id": "Q9",
+      "expressions": [
+        {
+          "name": "last_3_months",
+          "expr": "[x['units'] for x in extras['usage_history'][-3:]]"
+        }
+      ]
+    },
+    {
+      "question_id": "Q10",
+      "expressions": [
+        {
+          "name": "recent_avg",
+          "expr": "sum(x['units'] for x in extras['usage_history'][-3:]) / 3.0"
+        }
+      ]
+    },
+    {
+      "question_id": "Q11",
+      "expressions": [
+        {
+          "name": "avg_monthly_bill",
+          "expr": "sum(row['amount_billed'] for row in extras['billing_history_rows']) / len(extras['billing_history_rows'])"
+        }
+      ]
+    },
+    {
+      "question_id": "Q12",
+      "expressions": [
+        {
+          "name": "estimated_bill",
+          "expr": "level1['current_bill']"
+        }
+      ]
+    }
+  ]
+}

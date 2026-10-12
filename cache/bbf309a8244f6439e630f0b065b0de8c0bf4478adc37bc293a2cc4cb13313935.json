@@ -1,0 +1,26 @@
+{
+  "plans": [
+    {
+      "question_id": "Q1",
+      "expressions": [
+        {
+          "name": "tax_amount",
+          "expr": "level1['total_taxes']"
+        },
+        {
+          "name": "tax_percentage",
+          "expr": "facts['tax_share_of_current_bill'] * 100"
+        }
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "expressions": [
+        {
+          "name": "months_above_200",
+          "expr": "len([row for row in extras['billing_history_rows'] if row['units'] > 200])"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "The bill does not show export readings or solar generation credits, so it is a standard connection.",
+      "supporting_numbers": [],
+      "reason": "There is no mention of net metering or solar generation details in the bill."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "July had the highest units consumed with 622 units in the last 12 months.",
+      "supporting_numbers": [
+        622.0
+      ],
+      "reason": "The usage history lists July with 622 units, which is the maximum value."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "You are being charged PKR 1,280 for the Fuel Cost Adjustment (FCA) for the month of July-26.",
+      "supporting_numbers": [
+        1280.14,
+        622.0,
+        2.0581
+      ],
+      "reason": "The bill calculation lines show 622 units at a rate of 2.0581 resulting in an amount of 1280.14 for FCA :Jul-26."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "If you pay late, late payment surcharges of PKR 1,049 (5%) or PKR 2,099 (10%) will be added, making the total payable PKR 26,296 or PKR 27,345 respectively.",
+      "supporting_numbers": [
+        1049.45,
+        2098.9,
+        25246.0,
+        26296.0,
+        27345.0
+      ],
+      "reason": "The printed totals and late payment lines list a 5% surcharge of 1049.45 and a 10% surcharge of 2098.90."
+    },
+    {
+      "question_id": "Q5",
+      "answer": "Yes, you are consuming more units this year with 459 units compared to 374 units in the same month last year, which is an increase of 85 units or 22.73%.",
+      "supporting_numbers": [
+        459.0,
+        374.0,
+        85.0
+      ],
+      "reason": "Current month units are 459 and last year September units were 374."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "Your average monthly units consumed is 345 units, and this month's consumption of 459 units is 114 units higher than the average.",
+      "supporting_numbers": [
+        345.0769230769231,
+        459.0
+      ],
+      "reason": "The computed facts give an average usage of 345.08 units and current month consumption is 459 units."
+    },
+    {
+      "question_id": "Q7",
+      "answer": "The bill does not show separate seasonal totals for winter and summer.",
+      "supporting_numbers": [],
+      "reason": "Although monthly usage is listed, winter and summer totals are not explicitly calculated or shown as a summary."
+    },
+    {
+      "question_id": "Q8",
+      "answer": "Yes, you have been paying your bills consistently, as shown by the billing history where payments closely match or equal the billed amounts for June, July, and August.",
+      "supporting_numbers": [
+        30854.13,
+        30854.0,
+        33987.16,
+        33987.0,
+        31254.95,
+        31255.0
+      ],
+      "reason": "Billing history rows show amount billed and amount paid as nearly identical for the past 3 listed months."
+    },
+    {
+      "question_id": "Q9",
+      "answer": "Your units consumed have gone down over the last 3 months, dropping from 622 units in July to 576 units in August, and 459 units in September.",
+      "supporting_numbers": [
+        622.0,
+        576.0,
+        459.0
+      ],
+      "reason": "Usage history shows 622 units in Jul, 576 in Aug, and 459 in Sep."
+    },
+    {
+      "question_id": "Q10",
+      "answer": "Based on the 12-month trend and the repetition of September usage, you should expect to consume around 459 units next month.",
+      "supporting_numbers": [
+        459.0
+      ],
+      "reason": "September historical usage matches the current month's units of 459."
+    },
+    {
+      "question_id": "Q11",
+      "answer": "If you wanted to spread your estimated annual electricity cost of PKR 302,949 evenly across the year, you should set aside PKR 25,246 each month.",
+      "supporting_numbers": [
+        302949.24,
+        25245.77
+      ],
+      "reason": "Total annual cost estimate is 302,949.24 divided by 12 months, or using the current monthly bill of 25,245.77."
+    },
+    {
+      "question_id": "Q12",
+      "answer": "If you consume the same units as last month, your bill would be roughly PKR 25,246.",
+      "supporting_numbers": [
+        25245.77,
+        25246.0
+      ],
+      "reason": "The current bill amount for 459 units is PKR 25,245.77."
+    }
+  ]
+}

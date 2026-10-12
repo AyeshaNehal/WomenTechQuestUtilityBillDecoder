@@ -1,0 +1,97 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "This is a standard connection because the bill does not show any export readings, generation units, or net-metering details.",
+      "supporting_numbers": [],
+      "reason": "The bill lacks net-metering or export reading fields."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "The month in the last 12 months with the highest units consumed was October 25 with 656 units.",
+      "supporting_numbers": [
+        656.0
+      ],
+      "reason": "Identified from the usage history where October 25 has the maximum usage of 656 units."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "The bill does not show any fuel adjustment charges (FPA or FCA).",
+      "supporting_numbers": [],
+      "reason": "There is no mention of FPA or fuel adjustment in the charges or bill calculation lines."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "If you do not pay on time, a late payment surcharge of PKR 2,981 will be added, bringing the total payable after the due date to PKR 72,878.",
+      "supporting_numbers": [
+        2981.0,
+        72878.0
+      ],
+      "reason": "Calculated from the difference between payable after due date and payable within due date."
+    },
+    {
+      "question_id": "Q5",
+      "answer": "The bill does not show last year's consumption data for the exact same month to compare directly.",
+      "supporting_numbers": [],
+      "reason": "Historical usage data starts from September 25 and provides only a 12-month sequence without matching prior year months."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "Your average monthly units consumed is 310 units, and this month's consumption of 676 units is significantly higher than the average.",
+      "supporting_numbers": [
+        310.0,
+        676.0
+      ],
+      "reason": "Based on the usage average computed from historical data and current units consumed."
+    },
+    {
+      "question_id": "Q7",
+      "answer": "You consume 1,029 units in summer (June to August) compared to 480 units in winter (December to February), resulting in 549 more units consumed in summer.",
+      "supporting_numbers": [
+        1029.0,
+        480.0,
+        549.0
+      ],
+      "reason": "Sum of units for June 26, July 26, and Aug 26 minus the sum for Dec 25, Jan 26, and Mar 26 (Feb 26 missing)."
+    },
+    {
+      "question_id": "Q8",
+      "answer": "No, you have not been paying every bill; there are unpaid bills for September 25, March 26, April 26, June 26, and August 26 with an amount paid of 0.",
+      "supporting_numbers": [],
+      "reason": "Checked the amount_paid field in billing history rows where several months show 0."
+    },
+    {
+      "question_id": "Q9",
+      "answer": "Your units consumed have gone up over the last 3 months, moving from 267 units in June 26, to 412 units in July 26, and 525 units in August 26.",
+      "supporting_numbers": [
+        267.0,
+        412.0,
+        525.0
+      ],
+      "reason": "Observed from the usage history for the last 3 consecutive months."
+    },
+    {
+      "question_id": "Q10",
+      "answer": "Based on the 12-month trend, you should expect to consume around 310 units next month, which is the historical monthly average.",
+      "supporting_numbers": [
+        310.0
+      ],
+      "reason": "Using the computed usage average across the provided 12 months."
+    },
+    {
+      "question_id": "Q11",
+      "answer": "The bill does not show annual billing totals for the past year, so an exact monthly set-aside estimate cannot be calculated.",
+      "supporting_numbers": [],
+      "reason": "Several months in the billing history have unpaid or zero amount billed records making annual totals incomplete."
+    },
+    {
+      "question_id": "Q12",
+      "answer": "If you consume the same units as last month (525 units), your estimated bill would be roughly PKR 28,959 based on previous billing patterns.",
+      "supporting_numbers": [
+        525.0,
+        28959.0
+      ],
+      "reason": "Estimated using the amount billed for August 26 when units consumed were 525."
+    }
+  ]
+}

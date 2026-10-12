@@ -1,0 +1,124 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "This is a standard connection rather than a net-metered solar connection. The bill does not show any export readings, solar generation units, or net-metering adjustment lines.",
+      "supporting_numbers": [],
+      "reason": "The bill contains standard import readings and standard charges without any mention of solar export metrics."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "The month in the last 12 months with the highest units consumed was June with 838 units.",
+      "supporting_numbers": [
+        838.0
+      ],
+      "reason": "The usage history shows June as the peak consumption month at 838 units."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "You are being charged PKR 1,295 for fuel adjustment (FCA) for the month of July-26 at a rate of PKR 2.0581 per unit for 629 units.",
+      "supporting_numbers": [
+        1294.54,
+        629.0,
+        2.0581
+      ],
+      "reason": "The bill calculation lines specifically detail the FCA for July-26 with 629 units and a rate of 2.0581 resulting in PKR 1,295."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "If you do not pay on time, late payment surcharges of PKR 830 (5%) or PKR 1,660 (10%) will be added depending on the exact payment date.",
+      "supporting_numbers": [
+        830.14,
+        1660.28,
+        1660.0,
+        5.0,
+        10.0
+      ],
+      "reason": "The late payment lines section specifies a 5% surcharge of PKR 830 and a 10% surcharge of PKR 1,660."
+    },
+    {
+      "question_id": "Q5",
+      "answer": "Yes, you are consuming more units than in the same month last year. Current consumption is 371 units compared to 344 units in September of last year, which is an increase of 27 units.",
+      "supporting_numbers": [
+        371.0,
+        344.0,
+        27.0
+      ],
+      "reason": "The usage history shows September last year at 344 units and the current billing month at 371 units."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "Your average monthly units consumed is 366 units, which is slightly lower than your current month consumption of 371 units.",
+      "supporting_numbers": [
+        366.2307692307692,
+        371.0
+      ],
+      "reason": "The usage history average across the listed months is approximately 366 units while the current month is 371 units."
+    },
+    {
+      "question_id": "Q7",
+      "answer": "The bill does not show the exact aggregate summer and winter totals or averages directly because individual months vary, but June-August recorded 838, 629, and 455 units while December-February recorded 171, 135, and 196 units.",
+      "supporting_numbers": [
+        838.0,
+        629.0,
+        455.0,
+        171.0,
+        135.0,
+        196.0
+      ],
+      "reason": "Derived from the usage history values for the specified summer and winter months."
+    },
+    {
+      "question_id": "Q8",
+      "answer": "Yes, you have been paying every bill shown in the 12-month billing history. For June, July, and August 2026, the amounts paid closely match or equal the amounts billed, such as paying PKR 24,552 for a bill of PKR 24,552.",
+      "supporting_numbers": [
+        24552.09,
+        24552.0,
+        37822.27,
+        37822.0,
+        57777.49,
+        57778.0
+      ],
+      "reason": "The billing history rows indicate that the amounts paid nearly or fully cover the amounts billed for the available historical rows."
+    },
+    {
+      "question_id": "Q9",
+      "answer": "Your units consumed have gone down over the last 3 months, moving from 455 units in August to 629 units in July and 838 units in June, though looking backwards from June they dropped.",
+      "supporting_numbers": [
+        455.0,
+        629.0,
+        838.0
+      ],
+      "reason": "The usage history for June, July, and August shows a decreasing trend in consumption when read chronologically towards August."
+    },
+    {
+      "question_id": "Q10",
+      "answer": "Based on the 12-month trend and matching the same month last year, you should expect to consume around 344 units next month.",
+      "supporting_numbers": [
+        344.0,
+        371.0
+      ],
+      "reason": "The usage history for the corresponding month last year (Sep) was 344 units."
+    },
+    {
+      "question_id": "Q11",
+      "answer": "The bill does not show an annual average cost projection directly, but based on recent billing history amounts like PKR 24,552, PKR 37,822, and PKR 57,778, costs fluctuate significantly throughout the year.",
+      "supporting_numbers": [
+        24552.09,
+        37822.27,
+        57777.49
+      ],
+      "reason": "The billing history rows provide past monthly bill totals which vary widely between seasons."
+    },
+    {
+      "question_id": "Q12",
+      "answer": "If you consume the same units as last month (371 units), your roughly estimated bill would be PKR 19,964, matching your current bill total.",
+      "supporting_numbers": [
+        371.0,
+        19964.0,
+        19963.87
+      ],
+      "reason": "The current billing consumption is already 371 units, resulting in a payable amount of PKR 19,964."
+    }
+  ]
+}

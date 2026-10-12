@@ -1,0 +1,30 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "Taxes make up PKR 1,723.51 of your current bill, which is 31.33 percent of the total current charges of PKR 5,501.00. This consists of GST amounting to PKR 1,723.51.",
+      "supporting_numbers": [
+        1723.51,
+        31.33084893655699,
+        5501.0
+      ],
+      "reason": "The bill includes GST of PKR 1,723.51 out of a current bill total of PKR 5,501.00, representing 31.33 percent."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "Based on your billing history, there are 8 months that went above 200 units (AUG 25, SEP 25, OCT 25, DEC 25, MAR 26, APR 26, MAY 26, and JUL 26). If you include the current month of August 2026 with its 65.0 units, the count remains 8 months since the current month is below the threshold.",
+      "supporting_numbers": [
+        440.0,
+        407.0,
+        243.0,
+        206.0,
+        257.0,
+        264.0,
+        434.0,
+        225.0,
+        65.0
+      ],
+      "reason": "Counting the past months from the billing history that exceeded 200 units yields 8 months. The current month consumed 65.0 units, which is below 200 units."
+    }
+  ]
+}

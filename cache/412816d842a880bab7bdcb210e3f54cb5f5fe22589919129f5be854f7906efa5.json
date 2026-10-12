@@ -1,0 +1,30 @@
+{
+  "plans": [
+    {
+      "question_id": "Q1",
+      "expressions": [
+        {
+          "name": "tax_amount",
+          "expr": "next(t['amount'] for t in level1['taxes'] if t['type'] == 'gst')"
+        },
+        {
+          "name": "current_bill",
+          "expr": "level1['current_bill']"
+        },
+        {
+          "name": "tax_percentage",
+          "expr": "(tax_amount / current_bill) * 100"
+        }
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "expressions": [
+        {
+          "name": "months_above_200",
+          "expr": "len([row for row in extras['billing_history_rows'] if row['units'] > 200])"
+        }
+      ]
+    }
+  ]
+}

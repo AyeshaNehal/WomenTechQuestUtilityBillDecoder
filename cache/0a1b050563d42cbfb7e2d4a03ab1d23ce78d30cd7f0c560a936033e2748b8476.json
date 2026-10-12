@@ -1,0 +1,27 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "PKR 569.62 of your bill goes towards taxes, which is 16.61% of your total charges. This includes Electricity Duty at PKR 29.41, Sales Tax u/s 3(1)* at PKR 520.21, and MUCT (KMC) at PKR 20.0.",
+      "supporting_numbers": [
+        569.62,
+        16.61,
+        29.41,
+        520.21,
+        20.0
+      ],
+      "reason": "The bill total taxes amount is PKR 569.62, representing 16.61% of the current bill charges, broken down into Electricity Duty, Sales Tax, and MUCT."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "There are 2 months in your usage history that went above 200 units. These months are July 2025 at 239.0 units and August 2025 at 203.0 units. Your current month (April 2026) is not included as it stands at 151.0 units, keeping the total count at 2 months either way.",
+      "supporting_numbers": [
+        2.0,
+        239.0,
+        203.0,
+        151.0
+      ],
+      "reason": "The usage history lists 13 months, with exactly 2 months exceeding 200 units (July 2025 and August 2025)."
+    }
+  ]
+}

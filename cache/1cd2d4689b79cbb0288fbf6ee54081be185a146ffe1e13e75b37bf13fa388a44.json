@@ -1,0 +1,22 @@
+{
+  "plans": [
+    {
+      "question_id": "Q1",
+      "expressions": [
+        {
+          "name": "tax_amount",
+          "expr": "level1['total_taxes']"
+        }
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "expressions": [
+        {
+          "name": "months_above_200",
+          "expr": "facts['months_above_200']"
+        }
+      ]
+    }
+  ]
+}

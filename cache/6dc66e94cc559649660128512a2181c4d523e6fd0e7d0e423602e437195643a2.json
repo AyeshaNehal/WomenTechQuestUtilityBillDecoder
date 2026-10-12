@@ -1,0 +1,26 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "Your bill includes PKR 569 for taxes and duties, which accounts for 16.61% of your current bill. This total consists of Electricity Duty at PKR 29, Sales Tax at PKR 520, and Municipal Tax (MUCT) at PKR 20.",
+      "supporting_numbers": [
+        569.62,
+        16.61,
+        29.41,
+        520.21,
+        20.0
+      ],
+      "reason": "The bill total taxes sum to PKR 569.62, representing 16.61% of the charges, made up of specific tax line items."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "There are 2 months in the usage history that went above 200 units. These months are July 2025 at 239 units and August 2025 at 203 units.",
+      "supporting_numbers": [
+        2.0,
+        239.0,
+        203.0
+      ],
+      "reason": "Scanning the usage history shows exactly two months exceeding 200 units, excluding the current month of April 2026 which is at 151 units."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "Taxes make up PKR 7,472 of your current bill, which is 16.4% of the total. This includes electricity duty of PKR 521 and general sales tax of PKR 6,951.",
+      "supporting_numbers": [
+        7472.24,
+        16.397188955513737,
+        520.85,
+        6951.39
+      ],
+      "reason": "Total taxes are explicitly listed as PKR 7,472.24 comprising electricity duty and GST, representing 16.4% of the current bill of PKR 45,570.25."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "There are 8 months that went above 200 units in your usage history. This count includes the current month of June (901 units) as well as May (599 units), April (298 units), March (187 units - wait, excluding March since it is 187), let's list the qualifying months: Jun (943), Jul (637), Aug (665), Sep (555), Oct (522), Apr (298), May (599), and Jun (901).",
+      "supporting_numbers": [
+        8.0,
+        943.0,
+        637.0,
+        665.0,
+        555.0,
+        522.0,
+        298.0,
+        599.0,
+        901.0
+      ],
+      "reason": "Based on the 13-month usage history, exactly 8 months exceeded 200 units."
+    }
+  ]
+}

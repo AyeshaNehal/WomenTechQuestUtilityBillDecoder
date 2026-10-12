@@ -1,0 +1,32 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "Taxes make up PKR 7,472.24 of your current bill, which is approximately 16.40% of the total amount. This includes Electricity Duty of PKR 520.85 and Sales Tax u/s 3(1) of PKR 6,951.39.",
+      "supporting_numbers": [
+        7472.24,
+        16.397188955513737,
+        520.85,
+        6951.39
+      ],
+      "reason": "The total taxes amount to PKR 7,472.24 out of the current bill of PKR 45,570.25, representing 16.40%. Specific tax lines are Electricity Duty and Sales Tax."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "There are 8 months in the usage history that went above 200 units, including the current month of June 2026. If you exclude the current month, there are 7 months that exceed 200 units.",
+      "supporting_numbers": [
+        8.0,
+        943.0,
+        637.0,
+        665.0,
+        555.0,
+        522.0,
+        298.0,
+        599.0,
+        901.0,
+        7.0
+      ],
+      "reason": "Usage history shows 8 months above 200 units: Jun (943), Jul (637), Aug (665), Sep (555), Oct (522), Apr (298), May (599), and Jun (901). Excluding the current month leaves 7 months."
+    }
+  ]
+}

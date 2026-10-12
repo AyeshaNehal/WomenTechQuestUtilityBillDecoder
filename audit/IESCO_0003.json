@@ -1,0 +1,262 @@
+{
+  "level1": {
+    "provider": "IESCO",
+    "tariff": "A-1A(01)",
+    "sanctioned_load_kw": 3.0,
+    "bill_month": "2026-09",
+    "reading_date": "2026-09-27",
+    "issue_date": "2026-09-28",
+    "due_date": "2026-10-12",
+    "previous_reading": 1156.14,
+    "current_reading": 1213.9,
+    "units_consumed": 58.0,
+    "charges": [
+      {
+        "type": "subsidy",
+        "amount": -1393.0
+      },
+      {
+        "type": "energy",
+        "amount": 2636.0
+      },
+      {
+        "type": "fpa",
+        "amount": 172.0
+      }
+    ],
+    "total_charges": 2636.0,
+    "taxes": [
+      {
+        "type": "other_tax",
+        "amount": 234.0
+      }
+    ],
+    "total_taxes": 234.0,
+    "current_bill": 1477.0,
+    "arrears": 0.0,
+    "payable_within_due_date": 1649.0,
+    "payable_after_due_date": 1773.0
+  },
+  "extras": {
+    "usage_history": [
+      {
+        "month": "Sep25",
+        "units": 75.0
+      },
+      {
+        "month": "Oct25",
+        "units": 46.0
+      },
+      {
+        "month": "Nov25",
+        "units": 30.0
+      },
+      {
+        "month": "Dec25",
+        "units": 40.0
+      },
+      {
+        "month": "Jan26",
+        "units": 50.0
+      },
+      {
+        "month": "Feb26",
+        "units": 27.0
+      },
+      {
+        "month": "Mar26",
+        "units": 8.0
+      },
+      {
+        "month": "Apr26",
+        "units": 23.0
+      },
+      {
+        "month": "May26",
+        "units": 24.0
+      },
+      {
+        "month": "Jun26",
+        "units": 48.0
+      },
+      {
+        "month": "Jul26",
+        "units": 70.0
+      },
+      {
+        "month": "Aug26",
+        "units": 49.0
+      }
+    ],
+    "billing_history_rows": [
+      {
+        "month": "Sep25",
+        "units": 75.0,
+        "amount_billed": 816.0,
+        "amount_paid": 850.0
+      },
+      {
+        "month": "Oct25",
+        "units": 46.0,
+        "amount_billed": 506.0,
+        "amount_paid": 548.0
+      },
+      {
+        "month": "Nov25",
+        "units": 30.0,
+        "amount_billed": 385.0,
+        "amount_paid": 385.0
+      },
+      {
+        "month": "Dec25",
+        "units": 40.0,
+        "amount_billed": 539.0,
+        "amount_paid": 539.0
+      },
+      {
+        "month": "Jan26",
+        "units": 50.0,
+        "amount_billed": 676.0,
+        "amount_paid": 732.0
+      },
+      {
+        "month": "Feb26",
+        "units": 27.0,
+        "amount_billed": 744.0,
+        "amount_paid": 775.0
+      },
+      {
+        "month": "Mar26",
+        "units": 8.0,
+        "amount_billed": 914.0,
+        "amount_paid": 914.0
+      },
+      {
+        "month": "Apr26",
+        "units": 23.0,
+        "amount_billed": 1066.0,
+        "amount_paid": 1066.0
+      },
+      {
+        "month": "May26",
+        "units": 24.0,
+        "amount_billed": 1034.0,
+        "amount_paid": 1034.0
+      },
+      {
+        "month": "Jun26",
+        "units": 48.0,
+        "amount_billed": 1271.0,
+        "amount_paid": 1271.0
+      },
+      {
+        "month": "Jul26",
+        "units": 70.0,
+        "amount_billed": 1470.0,
+        "amount_paid": 1470.0
+      },
+      {
+        "month": "Aug26",
+        "units": 49.0,
+        "amount_billed": 1277.0,
+        "amount_paid": 1277.0
+      }
+    ],
+    "bill_calculation_lines": [
+      {
+        "name": "Total Electricity Charges",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 2636.0
+      },
+      {
+        "name": "Subsidies",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": -1393.0
+      },
+      {
+        "name": "Net Electricity Charges",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 1243.0
+      },
+      {
+        "name": "Taxes",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 234.0
+      },
+      {
+        "name": "Current Bill",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 1477.0
+      },
+      {
+        "name": "Arrears",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "Installment",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "Adjustments",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "W.E Credit",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "Lock Open Credit",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "Total FPA",
+        "section": "BILL CHARGES BREAKDOWN",
+        "units": null,
+        "rate": null,
+        "amount": 172.0
+      }
+    ],
+    "late_payment_lines": [
+      {
+        "description": "L.P SURCHARGE",
+        "amount": 62.0,
+        "date": null
+      }
+    ],
+    "printed_percentage_splits": [],
+    "message_board_text": "آپ کے اس بل میں جولائی 26 کے صرف شدہ بونس 70 کے ایندھن کی قیمت (FPA) کے 172 روپے بھی شامل ہیں۔ آپ کے موجودہ بجلی کے بل کے 2870 روپے میں حکومت پاکستان کی جانب سے 393,1 روپے کی سبسڈی شامل ہے۔ اس سبسڈی کی مجوزہ اہلیت کی تصدیق کے لیے QR کوڈ اسکین کریں اور رجسٹریشن کروائیں۔ بصورت دیگر آپ کی سبسڈی معطل ہو سکتی ہے۔",
+    "mdi_readings": null,
+    "tariff_slab_details": [],
+    "printed_totals": [
+      {
+        "description": "Grand Total",
+        "amount": 1649.0
+      }
+    ]
+  }
+}

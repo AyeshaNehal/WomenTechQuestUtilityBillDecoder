@@ -1,0 +1,274 @@
+{
+  "level1": {
+    "provider": "KE",
+    "tariff": "A1-R",
+    "sanctioned_load_kw": 3.0,
+    "bill_month": "2026-09",
+    "reading_date": "2026-09-04",
+    "issue_date": "2026-09-08",
+    "due_date": "2026-09-22",
+    "previous_reading": 9935.0,
+    "current_reading": 10094.0,
+    "units_consumed": 159.0,
+    "charges": [
+      {
+        "type": "fixed",
+        "amount": 900.0
+      },
+      {
+        "type": "energy",
+        "amount": 4596.69
+      },
+      {
+        "type": "quarterly_adjustment",
+        "amount": -274.99
+      },
+      {
+        "type": "quarterly_adjustment",
+        "amount": 10.66
+      },
+      {
+        "type": "fpa",
+        "amount": 613.31
+      },
+      {
+        "type": "surcharge",
+        "amount": 513.57
+      }
+    ],
+    "total_charges": 6359.24,
+    "taxes": [
+      {
+        "type": "electricity_duty",
+        "amount": 81.89
+      },
+      {
+        "type": "gst",
+        "amount": 1159.4
+      },
+      {
+        "type": "municipal_tax",
+        "amount": 20.0
+      }
+    ],
+    "total_taxes": 1261.29,
+    "current_bill": 7620.53,
+    "arrears": -0.41,
+    "payable_within_due_date": 7621.0,
+    "payable_after_due_date": 8257.0
+  },
+  "extras": {
+    "usage_history": [
+      {
+        "month": "Sep",
+        "units": 176.0
+      },
+      {
+        "month": "Oct",
+        "units": 173.0
+      },
+      {
+        "month": "Nov",
+        "units": 187.0
+      },
+      {
+        "month": "Dec",
+        "units": 124.0
+      },
+      {
+        "month": "Jan",
+        "units": 96.0
+      },
+      {
+        "month": "Feb",
+        "units": 88.0
+      },
+      {
+        "month": "Mar",
+        "units": 115.0
+      },
+      {
+        "month": "Apr",
+        "units": 151.0
+      },
+      {
+        "month": "May",
+        "units": 171.0
+      },
+      {
+        "month": "Jun",
+        "units": 261.0
+      },
+      {
+        "month": "Jul",
+        "units": 298.0
+      },
+      {
+        "month": "Aug",
+        "units": 235.0
+      },
+      {
+        "month": "Sep",
+        "units": 159.0
+      }
+    ],
+    "billing_history_rows": [
+      {
+        "month": "08/26",
+        "units": null,
+        "amount_billed": 11180.07,
+        "amount_paid": 11180.0
+      },
+      {
+        "month": "07/26",
+        "units": null,
+        "amount_billed": 13605.87,
+        "amount_paid": 13606.0
+      },
+      {
+        "month": "06/26",
+        "units": null,
+        "amount_billed": 12866.4,
+        "amount_paid": 12866.0
+      }
+    ],
+    "bill_calculation_lines": [
+      {
+        "name": "Fixed Charges",
+        "section": "charges",
+        "units": 3.0,
+        "rate": 300.0,
+        "amount": 900.0
+      },
+      {
+        "name": "Variable Upto 200 Units (Unprotected)",
+        "section": "charges",
+        "units": 159.0,
+        "rate": 28.91,
+        "amount": 4596.69
+      },
+      {
+        "name": "Uniform Quarterly Adjustment",
+        "section": "charges",
+        "units": 138.48,
+        "rate": -1.9857,
+        "amount": -274.99
+      },
+      {
+        "name": "Uniform Quarterly Adjustment",
+        "section": "charges",
+        "units": 20.52,
+        "rate": 0.5194,
+        "amount": 10.66
+      },
+      {
+        "name": "FCA :Jul-26",
+        "section": "charges",
+        "units": 298.0,
+        "rate": 2.0581,
+        "amount": 613.31
+      },
+      {
+        "name": "Additional Surcharge (PHL)",
+        "section": "charges",
+        "units": 159.0,
+        "rate": 3.23,
+        "amount": 513.57
+      },
+      {
+        "name": "Electricity Duty",
+        "section": "taxes",
+        "units": null,
+        "rate": null,
+        "amount": 81.89
+      },
+      {
+        "name": "Sales Tax u/s 3(1)*",
+        "section": "taxes",
+        "units": null,
+        "rate": null,
+        "amount": 1159.4
+      },
+      {
+        "name": "MUCT (KMC)",
+        "section": "taxes",
+        "units": null,
+        "rate": null,
+        "amount": 20.0
+      }
+    ],
+    "late_payment_lines": [
+      {
+        "description": "Late Payment Surcharge (5%)",
+        "amount": 317.96,
+        "date": null
+      },
+      {
+        "description": "Late Payment Surcharge (10%)",
+        "amount": 635.92,
+        "date": null
+      }
+    ],
+    "printed_percentage_splits": [
+      {
+        "category": "ENERGY CHARGES",
+        "percentage": 83.45,
+        "amount": 6359.24
+      },
+      {
+        "category": "TAXES AND DUTIES",
+        "percentage": 16.55,
+        "amount": 1261.29
+      }
+    ],
+    "message_board_text": "حکومت پاکستان بجلی کے بلوں میں سبسڈی فراہم کرتی ہے۔ اس سبسڈی کی مجوزہ اہلیت کی تصدیق کے لیے QR کوڈا سکین کریں اور رجسٹریشن کروائیں۔ بصورت دیگر آپ کی سبسڈی معطل ہو سکتی ہے۔ FCA of XWDISCOs is also being charged to KE consumers as part of Uniform FCA starting from the month of Jun 25",
+    "mdi_readings": null,
+    "tariff_slab_details": [],
+    "printed_totals": [
+      {
+        "description": "Electricity Charges",
+        "amount": 6359.24
+      },
+      {
+        "description": "Taxes and Duties",
+        "amount": 1261.29
+      },
+      {
+        "description": "Electricity Charges for current month",
+        "amount": 7620.53
+      },
+      {
+        "description": "Opening Balance",
+        "amount": 11179.59
+      },
+      {
+        "description": "Payments/Adjustment",
+        "amount": -11180.0
+      },
+      {
+        "description": "Previous Dues",
+        "amount": -0.41
+      },
+      {
+        "description": "Remaining Dues",
+        "amount": -0.41
+      },
+      {
+        "description": "Current Bill Amount",
+        "amount": 7620.53
+      },
+      {
+        "description": "Amount Payable within Due Date",
+        "amount": 7621.0
+      },
+      {
+        "description": "Amount Payable from 23-Sep-26 - 25-Sep-26 with 5% LPS",
+        "amount": 7939.0
+      },
+      {
+        "description": "Amount Payable after 25-Sep-26 with 10% LPS",
+        "amount": 8257.0
+      }
+    ]
+  }
+}

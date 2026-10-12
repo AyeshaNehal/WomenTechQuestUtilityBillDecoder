@@ -1,0 +1,29 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "Taxes make up PKR 1,723.51 of your current bill, which is 31.33 percent of the total.",
+      "supporting_numbers": [
+        1723.51,
+        5501.0
+      ],
+      "reason": "The tax amount is listed as PKR 1,723.51 out of the current bill of PKR 5,501.0."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "In the billing history, there are 9 months that went above 200 units. These months are AUG 25, SEP 25, OCT 25, MAR 26, APR 26, MAY 26, JUN 26, JUL 26, and FEB 26.",
+      "supporting_numbers": [
+        440.0,
+        407.0,
+        243.0,
+        257.0,
+        264.0,
+        434.0,
+        350.0,
+        225.0,
+        187.0
+      ],
+      "reason": "Checking the billing history rows for units consumed exceeding 200 yields 9 months."
+    }
+  ]
+}

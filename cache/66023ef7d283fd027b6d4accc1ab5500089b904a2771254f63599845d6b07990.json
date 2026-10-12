@@ -1,0 +1,104 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "This is a standard connection because the bill does not show any net-metering export units or generation credits.",
+      "supporting_numbers": [],
+      "reason": "There are no solar export readings or net-metering lines listed in the bill details."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "March 2026 had the highest units consumed with 201 units.",
+      "supporting_numbers": [
+        201.0
+      ],
+      "reason": "Looking at the 12-month usage history, MAR26 is the peak at 201 units."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "The bill shows a Total FPA amount of PKR 471, but the specific month for the fuel adjustment is not stated on the bill.",
+      "supporting_numbers": [
+        471.0
+      ],
+      "reason": "The bill summary lists Total FPA as PKR 471 without identifying the billing month it pertains to."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "If you don't pay on time, the payable amount increases from PKR 8,567 to PKR 9,245, resulting in a late payment surcharge of PKR 678.",
+      "supporting_numbers": [
+        8567.0,
+        9245.0,
+        678.0
+      ],
+      "reason": "The difference between payable after due date and payable within due date is PKR 678."
+    },
+    {
+      "question_id": "Q5",
+      "answer": "Yes, you consumed more units this September with 188 units compared to 179 units in September last year.",
+      "supporting_numbers": [
+        188.0,
+        179.0
+      ],
+      "reason": "Current month consumption is 188 units, and SEP25 history shows 179 units."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "Your average monthly consumption is 186 units, and this month's consumption of 188 units is slightly above average by 2 units.",
+      "supporting_numbers": [
+        186.0,
+        188.0
+      ],
+      "reason": "The average of the 12-month usage history is 185.67 units, and current consumption is 188 units."
+    },
+    {
+      "question_id": "Q7",
+      "answer": "You consume 79 more units in summer with 561 units than in winter with 482 units.",
+      "supporting_numbers": [
+        561.0,
+        482.0,
+        79.0
+      ],
+      "reason": "Summer months (June to August 2026: 179, 191, 185) total 561 units, while winter months (December 2025 to February 2026: 189, 182, 182) total 482 units."
+    },
+    {
+      "question_id": "Q8",
+      "answer": "Yes, you have been paying every bill in full over the last 12 months, with the exception of October 2025 where you paid PKR 2,476 against a bill of PKR 2,377.",
+      "supporting_numbers": [],
+      "reason": "Billing history shows all months have recorded amounts paid matching or exceeding the amount billed."
+    },
+    {
+      "question_id": "Q9",
+      "answer": "Your units consumed have gone down over the last 3 months, dropping from 191 units in July to 185 units in August, and 188 units in September.",
+      "supporting_numbers": [
+        191.0,
+        185.0,
+        188.0
+      ],
+      "reason": "Usage history for JUL26 is 191 units, AUG26 is 185 units, and SEP26 is 188 units, showing a recent decrease from July."
+    },
+    {
+      "question_id": "Q10",
+      "answer": "Based on the 12-month trend, you should expect to consume around 192 units next month.",
+      "supporting_numbers": [
+        192.0
+      ],
+      "reason": "In October of the previous year (OCT25), your consumption was 192 units."
+    },
+    {
+      "question_id": "Q11",
+      "answer": "To spread your electricity cost evenly, you should set aside PKR 7,178 each month.",
+      "supporting_numbers": [
+        7178.0
+      ],
+      "reason": "This estimate is calculated by taking the sum of the last 12 months' billed amounts (PKR 86,133) divided by 12."
+    },
+    {
+      "question_id": "Q12",
+      "answer": "If you consumed the same units as last month, your bill would be roughly PKR 7,895.",
+      "supporting_numbers": [
+        7895.0
+      ],
+      "reason": "This estimate is based on your exact amount billed in August 2026."
+    }
+  ]
+}

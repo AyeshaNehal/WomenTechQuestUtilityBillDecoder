@@ -1,0 +1,169 @@
+{
+  "level1": {
+    "provider": "LESCO",
+    "tariff": "A-2a(04)",
+    "sanctioned_load_kw": 1.0,
+    "bill_month": "2026-08",
+    "reading_date": "2026-08-26",
+    "issue_date": "2026-08-29",
+    "due_date": "2026-09-09",
+    "previous_reading": 22238.0,
+    "current_reading": 22303.0,
+    "units_consumed": 65.0,
+    "charges": [
+      {
+        "type": "energy",
+        "amount": 3777.49
+      },
+      {
+        "type": "subsidy",
+        "amount": 0.0
+      }
+    ],
+    "total_charges": 3777.49,
+    "taxes": [
+      {
+        "type": "gst",
+        "amount": 1723.51
+      }
+    ],
+    "total_taxes": 1723.51,
+    "current_bill": 5501.0,
+    "arrears": 39411.5,
+    "payable_within_due_date": 44912.0,
+    "payable_after_due_date": 45088.0
+  },
+  "extras": {
+    "usage_history": [],
+    "billing_history_rows": [
+      {
+        "month": "AUG 25",
+        "units": 440.0,
+        "amount_billed": 52906.0,
+        "amount_paid": 52906.0
+      },
+      {
+        "month": "SEP 25",
+        "units": 407.0,
+        "amount_billed": 23954.0,
+        "amount_paid": 25632.0
+      },
+      {
+        "month": "OCT 25",
+        "units": 243.0,
+        "amount_billed": 15558.0,
+        "amount_paid": null
+      },
+      {
+        "month": "NOV 25",
+        "units": 166.0,
+        "amount_billed": 27502.0,
+        "amount_paid": 27502.0
+      },
+      {
+        "month": "DEC 25",
+        "units": 206.0,
+        "amount_billed": 13486.0,
+        "amount_paid": null
+      },
+      {
+        "month": "JAN 26",
+        "units": 124.0,
+        "amount_billed": 23089.0,
+        "amount_paid": 23089.0
+      },
+      {
+        "month": "FEB 26",
+        "units": 187.0,
+        "amount_billed": 31115.0,
+        "amount_paid": 31692.0
+      },
+      {
+        "month": "MAR 26",
+        "units": 257.0,
+        "amount_billed": 31115.0,
+        "amount_paid": 31692.0
+      },
+      {
+        "month": "APR 26",
+        "units": 264.0,
+        "amount_billed": 17999.0,
+        "amount_paid": null
+      },
+      {
+        "month": "MAY 26",
+        "units": 434.0,
+        "amount_billed": 47317.0,
+        "amount_paid": 48257.0
+      },
+      {
+        "month": "JUN 26",
+        "units": 350.0,
+        "amount_billed": 22523.0,
+        "amount_paid": null
+      },
+      {
+        "month": "JUL 26",
+        "units": 225.0,
+        "amount_billed": 38441.0,
+        "amount_paid": null
+      }
+    ],
+    "bill_calculation_lines": [
+      {
+        "name": "Total Electricity Charges",
+        "section": "Charges",
+        "units": null,
+        "rate": null,
+        "amount": 3777.49
+      },
+      {
+        "name": "Subsidies",
+        "section": "Charges",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "Net Electricity Charges",
+        "section": "Charges",
+        "units": null,
+        "rate": null,
+        "amount": 3777.49
+      },
+      {
+        "name": "Taxes",
+        "section": "Taxes",
+        "units": null,
+        "rate": null,
+        "amount": 1723.51
+      },
+      {
+        "name": "Current Bill",
+        "section": "Summary",
+        "units": null,
+        "rate": null,
+        "amount": 5501.0
+      },
+      {
+        "name": "Grand Total",
+        "section": "Summary",
+        "units": null,
+        "rate": null,
+        "amount": 44912.0
+      }
+    ],
+    "late_payment_lines": [
+      {
+        "description": "L.P SURCHARGE",
+        "amount": 176.0,
+        "date": "2026-09-14"
+      }
+    ],
+    "printed_percentage_splits": [],
+    "message_board_text": null,
+    "mdi_readings": 1.0,
+    "tariff_slab_details": [],
+    "printed_totals": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "This is a standard connection, not a net-metered solar connection, as the bill contains no export readings or solar generation credits and lists a regular residential tariff A1-R.",
+      "supporting_numbers": [
+        3.0
+      ],
+      "reason": "Tariff type A1-R and absence of export units indicate a standard connection."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "The highest units consumed in the last 12 months was 298 units in the month of July.",
+      "supporting_numbers": [
+        298.0
+      ],
+      "reason": "Usage history shows 298 units for July."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "You are being charged PKR 613 as FPA for the month of July 2026, calculated at a rate of PKR 2.0581 per unit for 298 units.",
+      "supporting_numbers": [
+        613.31,
+        298.0,
+        2.0581
+      ],
+      "reason": "Bill calculation lines show FCA for Jul-26 with 298 units at PKR 2.0581 resulting in PKR 613.31."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "If you pay late, late payment surcharges of PKR 318 (5%) or PKR 636 (10%) will be added depending on the delay.",
+      "supporting_numbers": [
+        317.96,
+        635.92,
+        5.0,
+        10.0
+      ],
+      "reason": "Late payment lines specify 5% surcharge of PKR 318 and 10% surcharge of PKR 636."
+    },
+    {
+      "question_id": "Q5",
+      "answer": "No, you are consuming fewer units than in the same month last year. You consumed 159 units this September compared to 176 units last September, a decrease of 17 units.",
+      "supporting_numbers": [
+        159.0,
+        176.0,
+        17.0
+      ],
+      "reason": "Usage history shows 176 units in Sep last year and 159 units in Sep current month."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "Your average monthly units consumed is 172 units. This month's consumption of 159 units is 13 units below your average.",
+      "supporting_numbers": [
+        171.84615384615384,
+        159.0,
+        12.84615384615384
+      ],
+      "reason": "Computed facts show usage average is 172 units and current usage is 159 units."
+    },
+    {
+      "question_id": "Q7",
+      "answer": "The bill does not show a direct summer versus winter total comparison, but comparing seasonal usage history shows higher consumption in summer months.",
+      "supporting_numbers": [],
+      "reason": "Data lacks aggregated seasonal totals."
+    },
+    {
+      "question_id": "Q8",
+      "answer": "Yes, you have been paying your bills consistently. For the last 3 months shown (June, July, and August 2026), your payments match or closely cover the billed amounts.",
+      "supporting_numbers": [
+        11180.0,
+        13606.0,
+        12866.0
+      ],
+      "reason": "Billing history rows show payments of PKR 11,180, PKR 13,606, and PKR 12,866."
+    },
+    {
+      "question_id": "Q9",
+      "answer": "Your units consumed have gone down over the last 3 months, dropping from 235 units in August to 159 units in September.",
+      "supporting_numbers": [
+        235.0,
+        159.0
+      ],
+      "reason": "Usage history shows August at 235 units and September at 159 units."
+    },
+    {
+      "question_id": "Q10",
+      "answer": "Based on the 12-month trend, you should expect to consume around 159 units next month, matching your current month's consumption.",
+      "supporting_numbers": [
+        159.0
+      ],
+      "reason": "Computed prediction indicates 159 units based on current usage."
+    },
+    {
+      "question_id": "Q11",
+      "answer": "The bill does not provide an estimated annual cost calculation to determine a monthly set-aside amount.",
+      "supporting_numbers": [],
+      "reason": "Annual cost is not stated in the bill."
+    },
+    {
+      "question_id": "Q12",
+      "answer": "If you consume the same 159 units as last month, your estimated current bill would be roughly PKR 7,621.",
+      "supporting_numbers": [
+        159.0,
+        7620.53,
+        7621.0
+      ],
+      "reason": "Current bill amount is PKR 7,621 for 159 units."
+    }
+  ]
+}

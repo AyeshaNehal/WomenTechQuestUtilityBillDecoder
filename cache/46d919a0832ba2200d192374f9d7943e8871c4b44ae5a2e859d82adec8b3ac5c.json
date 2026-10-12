@@ -1,0 +1,23 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "PKR 3,358.23 of your bill is taxes. This consists of the GST tax line amounting to PKR 3,358.23. Taxes make up 16.20% of your current bill total of PKR 20,726.00.",
+      "supporting_numbers": [
+        3358.23,
+        20726.0,
+        16.20298176203802
+      ],
+      "reason": "The bill shows a GST tax amount of PKR 3,358.23, which constitutes approximately 16.20% of the current bill."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "There is 1 month in the billing history that went above 200 units. That month is AUG 25 with 225.0 units. If including the current month (JUL 2026 with 1017.0 units), the count is 2 months.",
+      "supporting_numbers": [
+        225.0,
+        1017.0
+      ],
+      "reason": "Checking the billing history rows, only AUG 25 exceeds 200 units with 225.0 units. If the current month of 1017 units is also included, the total is 2 months."
+    }
+  ]
+}

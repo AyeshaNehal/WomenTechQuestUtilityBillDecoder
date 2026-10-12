@@ -1,0 +1,108 @@
+{
+  "answers": [
+    {
+      "question_id": "Q1",
+      "answer": "This is a standard connection. The bill does not show any export readings or net-metering generation credits.",
+      "supporting_numbers": [],
+      "reason": "The bill lacks export readings or solar generation details."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "The highest units consumed in the last 12 months was 438 units in June.",
+      "supporting_numbers": [
+        438.0
+      ],
+      "reason": "From usage history, June has the maximum usage of 438 units."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "You are being charged PKR 290 as Fuel Charges Adjustment (FCA) for the month of February 2026.",
+      "supporting_numbers": [
+        290.39,
+        204.0,
+        1.4235
+      ],
+      "reason": "Bill calculation lines show FCA for Feb-26 with 204 units at 1.4235 per unit amounting to PKR 290."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "If paid late, a 5% late payment surcharge of PKR 724 or a 10% surcharge of PKR 1,448 will be added depending on the payment date after the due date.",
+      "supporting_numbers": [
+        724.07,
+        1448.13
+      ],
+      "reason": "Late payment lines specify 5% LPS as PKR 724 and 10% LPS as PKR 1,448."
+    },
+    {
+      "question_id": "Q5",
+      "answer": "Yes, you are consuming more units than in the same month last year. Current April consumption is 286 units compared to 214 units last April, which is an increase of 72 units or 33.6%.",
+      "supporting_numbers": [
+        286.0,
+        214.0,
+        72.0
+      ],
+      "reason": "Usage history for Apr last year shows 214 units and current April shows 286 units."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "Your average monthly units consumed is 258 units. This month's consumption of 286 units is 28 units higher than the average.",
+      "supporting_numbers": [
+        257.53846153846155,
+        286.0
+      ],
+      "reason": "Computed usage average is 258 units and current units are 286."
+    },
+    {
+      "question_id": "Q7",
+      "answer": "You consume 333 more units in summer with 803 total summer units compared to 470 total winter units.",
+      "supporting_numbers": [
+        438.0,
+        306.0,
+        249.0,
+        227.0,
+        169.0,
+        204.0
+      ],
+      "reason": "Summer months June, July, August total 803 units; winter months December, January, February total 470 units."
+    },
+    {
+      "question_id": "Q8",
+      "answer": "Based on the billing history for the last 3 months shown on the bill, you have paid every bill in full.",
+      "supporting_numbers": [],
+      "reason": "Billing history shows amounts billed and paid for 03/26, 02/26, and 01/26 are matching."
+    },
+    {
+      "question_id": "Q9",
+      "answer": "Your units consumed have gone up over the last 3 months, moving from 169 units in January to 204 units in February, and 286 units in April.",
+      "supporting_numbers": [
+        169.0,
+        204.0,
+        286.0
+      ],
+      "reason": "Usage history lists Jan as 169, Feb as 204, Mar as 185, and current Apr as 286 units."
+    },
+    {
+      "question_id": "Q10",
+      "answer": "Based on the 12 months trend, you should expect to consume around 258 units next month, which is the historical monthly average.",
+      "supporting_numbers": [
+        257.53846153846155
+      ],
+      "reason": "The overall usage average across the 12-month history is approximately 258 units."
+    },
+    {
+      "question_id": "Q11",
+      "answer": "The bill does not show an annual average calculation to determine a fixed monthly installment.",
+      "supporting_numbers": [],
+      "reason": "The bill provides only the current month charges and recent history, lacking an annual total calculation."
+    },
+    {
+      "question_id": "Q12",
+      "answer": "If you consume the same units as last month (185 units), your estimated bill would be roughly PKR 12,136 based on the previous month's billed amount.",
+      "supporting_numbers": [
+        12136.42,
+        185.0
+      ],
+      "reason": "Billing history shows the previous month (03/26) was billed at PKR 12,136 for 185 units."
+    }
+  ]
+}

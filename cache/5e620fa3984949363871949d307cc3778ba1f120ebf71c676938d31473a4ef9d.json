@@ -1,0 +1,177 @@
+{
+  "level1": {
+    "provider": "IESCO",
+    "tariff": "A-1a(01)",
+    "sanctioned_load_kw": 1.0,
+    "bill_month": "2026-08",
+    "reading_date": "2026-08-08",
+    "issue_date": "2026-08-09",
+    "due_date": "2026-08-24",
+    "previous_reading": 5949.08,
+    "current_reading": 6625.57,
+    "units_consumed": 676.0,
+    "charges": [
+      {
+        "type": "energy",
+        "amount": 29807.0
+      }
+    ],
+    "total_charges": 29807.0,
+    "taxes": [
+      {
+        "type": "gst",
+        "amount": 38323.0
+      }
+    ],
+    "total_taxes": 38323.0,
+    "current_bill": 69897.0,
+    "arrears": 31203.0,
+    "payable_within_due_date": 69897.0,
+    "payable_after_due_date": 72878.0
+  },
+  "extras": {
+    "usage_history": [
+      {
+        "month": "Sep 25",
+        "units": 597.0
+      },
+      {
+        "month": "Oct 25",
+        "units": 656.0
+      },
+      {
+        "month": "Nov 25",
+        "units": 182.0
+      },
+      {
+        "month": "Dec 25",
+        "units": 143.0
+      },
+      {
+        "month": "Jan 26",
+        "units": 155.0
+      },
+      {
+        "month": "Mar 26",
+        "units": 175.0
+      },
+      {
+        "month": "Apr 26",
+        "units": 142.0
+      },
+      {
+        "month": "May 26",
+        "units": 154.0
+      },
+      {
+        "month": "Jun 26",
+        "units": 267.0
+      },
+      {
+        "month": "Jul 26",
+        "units": 412.0
+      },
+      {
+        "month": "Aug 26",
+        "units": 525.0
+      }
+    ],
+    "billing_history_rows": [
+      {
+        "month": "Sep 25",
+        "units": 597.0,
+        "amount_billed": 32414.0,
+        "amount_paid": 0.0
+      },
+      {
+        "month": "Oct 25",
+        "units": 656.0,
+        "amount_billed": 73264.0,
+        "amount_paid": 73264.0
+      },
+      {
+        "month": "Nov 25",
+        "units": 182.0,
+        "amount_billed": 6395.0,
+        "amount_paid": 6395.0
+      },
+      {
+        "month": "Dec 25",
+        "units": 143.0,
+        "amount_billed": 4767.0,
+        "amount_paid": 4767.0
+      },
+      {
+        "month": "Jan 26",
+        "units": 155.0,
+        "amount_billed": 5816.0,
+        "amount_paid": 5816.0
+      },
+      {
+        "month": "Mar 26",
+        "units": 175.0,
+        "amount_billed": 6844.0,
+        "amount_paid": 0.0
+      },
+      {
+        "month": "Apr 26",
+        "units": 142.0,
+        "amount_billed": 13546.0,
+        "amount_paid": 0.0
+      },
+      {
+        "month": "May 26",
+        "units": 154.0,
+        "amount_billed": 20670.0,
+        "amount_paid": 20670.0
+      },
+      {
+        "month": "Jun 26",
+        "units": 267.0,
+        "amount_billed": 12125.0,
+        "amount_paid": 0.0
+      },
+      {
+        "month": "Jul 26",
+        "units": 412.0,
+        "amount_billed": 34613.0,
+        "amount_paid": 34613.0
+      },
+      {
+        "month": "Aug 26",
+        "units": 525.0,
+        "amount_billed": 28959.0,
+        "amount_paid": 0.0
+      }
+    ],
+    "bill_calculation_lines": [
+      {
+        "name": "Total Electricity Charges",
+        "section": "charges",
+        "units": null,
+        "rate": null,
+        "amount": 29807.0
+      },
+      {
+        "name": "Subsidies",
+        "section": "charges",
+        "units": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "Taxes",
+        "section": "taxes",
+        "units": null,
+        "rate": null,
+        "amount": 38323.0
+      }
+    ],
+    "late_payment_lines": [],
+    "printed_percentage_splits": [],
+    "message_board_text": null,
+    "mdi_readings": null,
+    "tariff_slab_details": [],
+    "printed_totals": []
+  }
+}
